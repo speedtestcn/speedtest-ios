@@ -80,6 +80,11 @@ Pod::Spec.new do |spec|
 
   s.frameworks = 'UIKit'
 
+  s.subspec 'JQCommon' do |ss|
+    ss.vendored_frameworks = ['speedsdk/JQCommonSDK.framework']
+    ss.preserve_paths = 'speedsdk/JQCommonSDK.framework'
+  end
+
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 

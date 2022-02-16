@@ -34,7 +34,7 @@ $ pod install
 
 ### Author
 
-Lxw
+Speedtestcn
 
 ### License
 

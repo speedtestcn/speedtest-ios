@@ -22,6 +22,7 @@ Pod::Spec.new do |spec|
   valid_archs               = ['x86_64', 'arm64']
   spec.frameworks           = 'UIKit'
   spec.vendored_frameworks  = "speedsdk/JQCommonSDK.framework"
+  spec.dependency 'CryptoSwift'
 
   spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }

@@ -90,5 +90,5 @@ fastlane/test_output
 iOSInjectionProject/
 speedsdk/
 videosdk/
-game-sdk/
-combo-sdk/
+speedgamesdk/
+speedcombosdk/

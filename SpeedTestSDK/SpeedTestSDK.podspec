@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   spec.resource             = 'speedsdk/SpeedTestResources.bundle'
   spec.dependency 'Reachability', '~> 3.2'
   spec.dependency 'SimplePingTest', '~> 1.2.0'
+  spec.dependency 'MJRefresh', '~> 3.3.1'
   spec.dependency 'CryptoSwift'
   spec.dependency 'JQCommonSDK'
 
